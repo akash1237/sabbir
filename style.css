@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:lato; 
+}
+.image{
+    width: 100%;
+    height: 100vh;
+    background-image: url(star.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative
+}
+ul{
+    background-color: cadetblue;
+    overflow: hidden;
+    padding-left: 40%;
+}
+ul li{
+    float: left;
+    list-style-type: none; 
+}
+ul li a{
+    color: beige;
+    text-decoration: none;
+    padding: 14px 18px;
+    display: inline-block; 
+}
+ul li a:hover{
+    background-color: coral;
+}
+.yo{
+    background-color: chocolate;
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.cont a{
+    display: block;
+}
+.cont:hover .yo{
+    display: block;
+}
+h1{
+    font-size: 80px;
+    color: aliceblue;
+}
+p{
+    color: aqua;
+    font-size: 20px;
+}
+.to{
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    left:38%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.to a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: brown;
+    font-size: 20px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 200px; 
+}
+.to a:hover{
+    background-color: crimson;
+}
